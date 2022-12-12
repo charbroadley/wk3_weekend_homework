@@ -3,8 +3,9 @@
 {% block content %}
 
 <h2>Book Details:</h2>
-    <ul>
-        <li><p>
+    
+        <section id="book-details">
+            <ul><p>
             Title: {{ book.title }}
             <br><br>
             Author:{{ book.author }}
@@ -14,9 +15,7 @@
             {% if book.checked_out %}
             <p>Book is currently checked out</p>
             {% endif %}
-        </p></li>
-    </ul>
-    
+        </p></ul></section>
     <h4>
         <a href="http://localhost:4999/books">Back to all books</a>
     </h4>

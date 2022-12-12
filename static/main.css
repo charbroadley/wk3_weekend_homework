@@ -45,6 +45,10 @@ body h3 {
     color: grey;
 }
 
+#book-details {
+    text-decoration: none;
+}
+
 .book li a:hover {
     text-decoration: underline;
 }
